@@ -77,27 +77,4 @@ function addProject({ title, description, image, link, video }) {
 }
 
 // Load projects on page load
-loadProjects();
-
-/* ───────────────────── Sample seed data ───────────────────── */
-// [
-  //   {
-  //     title: 'Battle Royale Graduation Project',
-  //     description: 'Multiplayer battle royale built with Unreal Engine 5 featuring dynamic zones & smart AI.',
-  //     image: 'https://placehold.co/600x338?text=Battle+Royale',
-  //     link: 'https://github.com/your-repo/battle-royale',
-  //     video: 'https://www.w3schools.com/html/mov_bbb.mp4' // Example video
-  //   },
-  //   {
-  //     title: 'Digital Twin House Demo',
-  //     description: 'Unreal Engine digital‑twin demo streaming real‑time IoT sensor data into a 3D smart‑home model.',
-  //     image: 'https://placehold.co/600x338?text=Digital+Twin',
-  //     link: 'https://github.com/your-repo/digital-twin'
-  //   },
-  //   {
-  //     title: 'Zombie Escape (3D Isometric)',
-  //     description: 'Unity survival‑puzzle game where players escape a zombie‑infested prison to deliver a vaccine.',
-  //     image: 'https://placehold.co/600x338?text=Zombie+Escape',
-  //     link: 'https://github.com/your-repo/zombie-escape'
-  //   }
-  // ].forEach(addProject);
+loadProjects(); 
