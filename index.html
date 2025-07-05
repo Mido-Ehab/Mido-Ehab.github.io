@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Ehab | Portfolio</title>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Font (optional aesthetic touch) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- ───────── Header / Nav ───────── -->
+  <header>
+    <nav class="container">
+      <div class="logo" style="display: flex; align-items: center; gap: 0.6rem;">
+        Mohamed<span class="accent">Ehab</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ───────── Hero ───────── -->
+  <section class="hero container reveal" style="display: flex; align-items: center; gap: 2rem; justify-content: center;">
+    <img src="Images/me.jpg" alt="Mohamed Ehab photo" style="width:160px; height:160px; border-radius:50%; object-fit:cover; flex-shrink:0;">
+    <div>
+      <h1>Hello, I’m <span class="accent">Mohamed</span> Ehab</h1>
+      <p>Game developer & software engineer building immersive experiences with Unity, Unreal Engine 5.</p>
+    </div>
+  </section>
+
+  <!-- ───────── About ───────── -->
+  <section id="about" class="container reveal">
+    <h2>About Me</h2>
+    <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+      <p>
+    I'm a 24‑year‑old game developer and software engineer specializing in gameplay programming, level design, and immersive technologies. I build interactive experiences using Unity, Unreal Engine, with a focus on cross-platform development — including PC, mobile, VR, and AR
+      </p>
+    </div>
+  </section>
+
+  <!-- ───────── Projects ───────── -->
+  <section id="projects" class="container reveal">
+    <div class="section-header">
+      <h2>Projects</h2>
+    </div>
+    <div id="projectsGrid" class="projects-grid"></div>
+  </section>
+
+  <!-- ───────── Contact ───────── -->
+  <section id="contact" class="container reveal" style="display: flex; justify-content: center; align-items: center; gap: 3rem; margin-bottom: 2rem;">
+    <a href="mailto:MEhab.Shalaby@gmail.com" style="font-size: 2rem; display: flex; align-items: center; gap: 0.5rem; text-decoration: none;">
+      <i class="fa-solid fa-envelope"></i>
+      <span style="font-size: 1.3rem;">MEhab.Shalaby@gmail.com</span>
+    </a>
+    <a href="https://www.linkedin.com/in/mohamed-ehab-shalaby-805b9321b" target="_blank" rel="noopener" style="font-size: 2rem; display: flex; align-items: center; gap: 0.5rem; text-decoration: none;">
+      <i class="fa-brands fa-linkedin"></i>
+      <span style="font-size: 1.3rem;">LinkedIn</span>
+    </a>
+  </section>
+
+  <!-- ───────── Add‑Project Modal ───────── -->
+  <dialog id="addProjectModal">
+    <form id="addProjectForm">
+      <label>Project Title
+        <input id="projTitle" type="text" required />
+      </label>
+
+      <label>Short Description
+        <textarea id="projDesc" rows="3" required></textarea>
+      </label>
+
+      <label>Image URL
+        <input id="projImg" type="url" placeholder="https://example.com/cover.jpg" />
+      </label>
+
+      <label>Project Link
+        <input id="projLink" type="url" placeholder="https://github.com/..." />
+      </label>
+
+      <label>Video URL
+        <input id="projVideo" type="url" placeholder="https://example.com/demo.mp4" />
+      </label>
+
+      <div class="modal-actions">
+        <button type="button" id="cancelBtn" class="btn-secondary">Cancel</button>
+        <button type="submit" class="btn-primary">Add</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- ───────── Project Card Template ───────── -->
+  <template id="projectCardTemplate">
+    <article class="card">
+      <img src="" alt="Project cover" />
+      <video controls style="display:none; margin-bottom: 0.7rem; border-radius: 0.5rem;" width="100%"></video>
+      <div class="card-content">
+        <h3></h3>
+        <p></p>
+        <a href="#" target="_blank" rel="noopener">View More&nbsp;→</a>
+      </div>
+    </article>
+  </template>
+
+  <!-- Main script -->
+  <script src="script.js"></script>
+</body>
+</html>
