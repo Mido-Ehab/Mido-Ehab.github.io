@@ -14,19 +14,19 @@ const template = document.getElementById('projectCardTemplate');
 
 // Add your projects manually here:
 const projects = [
-   {
+  {
     title: "Some OpenGl, SFML Projects",
     description: "A collection of OpenGL projects built with SFML, showcasing various graphics techniques and effects.",
     image:"",
     link:"https://drive.google.com/drive/folders/1a7H7VdzCQ12hbmBzKVbRkYxL7Ldr2EbX?usp=sharing"
   },
-   {
+  {
     title: "GD50 Lua Projects",
     description: "A collection of Lua projects built with the GD50 framework, showcasing various game mechanics and features.",
     image:"",
     link:"https://drive.google.com/drive/folders/1JzKb0ZIozVlfNOJ6vtYgwxE_yLT7PX3Q?usp=sharing"
   },
-    {
+  {
     title: "Endless Runner Game",
     description: "A 3D endless runner game built with Unity, featuring a player controller, obstacles, and collectibles.",
     image:"Images/EndlessRunnerGame/EndlessRunnerGame.png",
@@ -74,7 +74,7 @@ const projects = [
     image: "Images/NetCode/NetCode.png",
     link:"https://drive.google.com/file/d/1wZMlrlhyZ9w3s2e8HERx6hIZvBf1JMlC/view?usp=drive_link"
   },
-    {
+  {
     title: "ShootOBS FPS Unity Game",
     description: "A simple FPS game built with Unity, featuring a player controller, shooting mechanics And AI Enemies",
     image: "Images/ShootOBS/ShootOBS.png",
@@ -104,16 +104,13 @@ const projects = [
     image: "Images/Shidiji/Shidiji.png",
     link: "https://drive.google.com/drive/folders/1ZZQCZ_NFiu_HFRQL7lF14Rok4oBSRGJV?usp=sharing",
   },
-  
 ];
 
-// Load projects from the array (not localStorage)
 function loadProjects() {
   projectsGrid.innerHTML = '';
   projects.forEach(addProject);
 }
 
-// Add a card with a little “drop‑in” animation
 function addProject({ title, description, image, link, video }) {
   const clone = template.content.cloneNode(true);
   const img   = clone.querySelector('img');
@@ -144,4 +141,54 @@ function addProject({ title, description, image, link, video }) {
 }
 
 // Load projects on page load
-loadProjects(); 
+loadProjects();
+
+/* ───────────────────── Navigation Logic ───────────────────── */
+// Make sure your nav links have these IDs in your HTML: nav-about, nav-projects, nav-contact
+const navLinks = {
+  about: document.getElementById('nav-about'),
+  projects: document.getElementById('nav-projects'),
+  contact: document.getElementById('nav-contact')
+};
+
+function highlightNav() {
+  const sections = ['about', 'projects', 'contact'];
+  let current = sections[0];
+  const scrollY = window.scrollY + window.innerHeight / 3;
+
+  for (const id of sections) {
+    const section = document.getElementById(id);
+    if (section && section.offsetTop <= scrollY) {
+      current = id;
+    }
+  }
+
+  for (const id of sections) {
+    if (navLinks[id]) {
+      navLinks[id].classList.toggle('active', id === current);
+    }
+  }
+}
+
+window.addEventListener('scroll', highlightNav);
+window.addEventListener('DOMContentLoaded', highlightNav);
+
+// Optional: Smooth scroll for nav links
+Object.values(navLinks).forEach(link => {
+  if (link) {
+    link.addEventListener('click', function (event) {
+      event.preventDefault();
+      const targetId = this.getAttribute('href');
+      const targetSection = document.querySelector(targetId);
+      if (targetSection) {
+        const headerOffset = 0; // Adjust if you want to offset for sticky header
+        const elementPosition = targetSection.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+      }
+    });
+  }
+});
