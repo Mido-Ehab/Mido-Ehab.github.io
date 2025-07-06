@@ -57,6 +57,12 @@ const projects = [
     link: "https://drive.google.com/drive/folders/1mZhmWzK5fYaVdjSEvc03u7Q19x-tpAc9?usp=sharing"
   },
   {
+    title: "AR Whack a Mole",
+    description: "An Augmented Reality game built with Unity, where players can interact with virtual moles in the real world.",
+    image: "Images/AR/ARProject.png",
+    link: "https://drive.google.com/file/d/1wchn_n5FjSz0nHB28ca43IVowDNNo1qI/view?usp=sharing",
+  },
+  {
     title: "Shatta Personality Quiz ",
     description: "Freelance project for a client, a personality quiz game built with Unity.",
     image: "Images/FreelanceProjects/Shatta/ShattaFreelance.jpg",
@@ -85,12 +91,6 @@ const projects = [
     description: "A collection of shaders created using Unity's Shader Graph & HLSL, showcasing various visual effects.",
     image:"Images/Shaders/Shaders.png",
     link: "https://drive.google.com/drive/folders/1y2i4imEtZP59N0PMV7ryv2NyXAsXTHkF?usp=sharing"
-  },
-{
-    title: "AR Whack a Mole",
-    description: "An Augmented Reality game built with Unity, where players can interact with virtual moles in the real world.",
-    image: "Images/AR/ARProject.png",
-    link: "https://drive.google.com/file/d/1wchn_n5FjSz0nHB28ca43IVowDNNo1qI/view?usp=sharing",
   },
   {
     title: "Invasion VR FPS",
