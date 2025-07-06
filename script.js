@@ -21,6 +21,12 @@ const projects = [
     link: "https://drive.google.com/file/d/1cADL1VGbhmwdjWZxqphSSdFEcs1zLa_v/view?usp=sharing",
   },
   {
+    title: "SpiderSonic 2D Game",
+    description: "A 2D platformer game built with Unity",
+    image:"Images/2D/SpiderSonic.png",
+    link:"https://mido-ehab-221.itch.io/spidersonic"
+  },
+  {
     title: "Maze ball Simble Unity Game",
     description: "Unity game where you control a ball to reach the end of the maze click view more if You want to try it.",
     image: "Images/MazeBall/MazeBall.png",
@@ -74,6 +80,7 @@ const projects = [
     image: "Images/Shidiji/Shidiji.png",
     link: "https://drive.google.com/drive/folders/1ZZQCZ_NFiu_HFRQL7lF14Rok4oBSRGJV?usp=sharing",
   },
+  
 ];
 
 // Load projects from the array (not localStorage)
