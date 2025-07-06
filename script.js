@@ -37,6 +37,12 @@ const projects = [
     description: "Unreal Engine C++ Try to Copy MoonKnight ultimate mechanic and effect from Marvel Rivals game",
     image: "Images/MoonKnight/MoonKnightUlt.jpg",
     link: "https://drive.google.com/file/d/1CBxtTBHWg47sNCa5lY3mJwhmwqH20Uk4/view?usp=sharing"
+  },
+  {
+    title: "Shatta Personality Quiz ",
+    description: "Freelance project for a client, a personality quiz game built with Unity.",
+    image: "Images/FreelanceProjects/Shatta/ShattaFreelance.jpg",
+    link: "https://www.linkedin.com/posts/mohamed-ehab-shalaby-805b9321b_freelance-unity-gamedev-activity-7316587853809901569-tLUH?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADeGpcUBnUygQZEnRrpAlYJIO8l_fN3BtYc"
   }
 ];
 
