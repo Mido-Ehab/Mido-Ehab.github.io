@@ -49,6 +49,18 @@ const projects = [
     description: "A networked game built with Unity's NetCode for GameObjects, featuring a player controller and a simple shooting mechanic.",
     image: "Images/NetCode/NetCode.png",
     link:"https://drive.google.com/file/d/1wZMlrlhyZ9w3s2e8HERx6hIZvBf1JMlC/view?usp=drive_link"
+  },
+    {
+    title: "ShootOBS FPS Unity Game",
+    description: "A simple FPS game built with Unity, featuring a player controller, shooting mechanics And AI Enemies",
+    image: "Images/ShootOBS/ShootOBS.png",
+    link:"https://mido-ehab-221.itch.io/shootobs"
+  },
+  {
+    title:"Shaders",
+    description: "A collection of shaders created using Unity's Shader Graph & HLSL, showcasing various visual effects.",
+    image:"Images/Shaders/Shaders.png",
+    link: "https://drive.google.com/drive/folders/1y2i4imEtZP59N0PMV7ryv2NyXAsXTHkF?usp=sharing"
   }
 ];
 
