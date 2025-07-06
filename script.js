@@ -26,12 +26,6 @@ const projects = [
     image: "Images/MazeBall/MazeBall.png",
     link: "https://mido-ehab-221.itch.io/maze-ball"
   },
-{
-    title: "Shidijia (Battle Royale)",
-    description: "Offline battle royale built with Unreal Engine 5 featuring impressive views & smart AI enemies.",
-    image: "Images/Shidiji/Shidiji.png",
-    link: "https://drive.google.com/drive/folders/1ZZQCZ_NFiu_HFRQL7lF14Rok4oBSRGJV?usp=sharing",
-  },
    {
     title: "MoonKnight Ultimate C++ UE5 ",
     description: "Unreal Engine C++ Try to Copy MoonKnight ultimate mechanic and effect from Marvel Rivals game",
@@ -61,7 +55,25 @@ const projects = [
     description: "A collection of shaders created using Unity's Shader Graph & HLSL, showcasing various visual effects.",
     image:"Images/Shaders/Shaders.png",
     link: "https://drive.google.com/drive/folders/1y2i4imEtZP59N0PMV7ryv2NyXAsXTHkF?usp=sharing"
-  }
+  },
+{
+    title: "AR Whack a Mole",
+    description: "An Augmented Reality game built with Unity, where players can interact with virtual moles in the real world.",
+    image: "Images/AR/ARProject.png",
+    link: "https://drive.google.com/file/d/1wchn_n5FjSz0nHB28ca43IVowDNNo1qI/view?usp=sharing",
+  },
+  {
+    title: "Invasion VR FPS",
+    description: "A VR FPS game built with Unity shooting mechanics, and AI enemies.",
+    image: "Images/FPSVR/InvasionVR.png",
+    link: "https://mido-ehab-221.itch.io/invasion-vr-fps-game"
+  },
+  {
+    title: "Shidijia (Battle Royale)",
+    description: "Offline battle royale built with Unreal Engine 5 featuring impressive views & smart AI enemies.",
+    image: "Images/Shidiji/Shidiji.png",
+    link: "https://drive.google.com/drive/folders/1ZZQCZ_NFiu_HFRQL7lF14Rok4oBSRGJV?usp=sharing",
+  },
 ];
 
 // Load projects from the array (not localStorage)
