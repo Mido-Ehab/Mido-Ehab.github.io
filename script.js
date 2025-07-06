@@ -14,6 +14,24 @@ const template = document.getElementById('projectCardTemplate');
 
 // Add your projects manually here:
 const projects = [
+   {
+    title: "Some OpenGl, SFML Projects",
+    description: "A collection of OpenGL projects built with SFML, showcasing various graphics techniques and effects.",
+    image:"",
+    link:"https://drive.google.com/drive/folders/1a7H7VdzCQ12hbmBzKVbRkYxL7Ldr2EbX?usp=sharing"
+  },
+   {
+    title: "GD50 Lua Projects",
+    description: "A collection of Lua projects built with the GD50 framework, showcasing various game mechanics and features.",
+    image:"",
+    link:"https://drive.google.com/drive/folders/1JzKb0ZIozVlfNOJ6vtYgwxE_yLT7PX3Q?usp=sharing"
+  },
+    {
+    title: "Endless Runner Game",
+    description: "A 3D endless runner game built with Unity, featuring a player controller, obstacles, and collectibles.",
+    image:"Images/EndlessRunnerGame/EndlessRunnerGame.png",
+    link:"https://drive.google.com/file/d/1wo43gyXhpJSaOL_GtvhNbfydhn-nL-iw/view?usp=sharing"
+  },
   {
     title: "Integrating Convai in Unreal Engine 5",
     description: "Using convai with readyplayer me characters in Unreal Engine 5.",
@@ -32,11 +50,11 @@ const projects = [
     image: "Images/MazeBall/MazeBall.png",
     link: "https://mido-ehab-221.itch.io/maze-ball"
   },
-   {
-    title: "MoonKnight Ultimate C++ UE5 ",
-    description: "Unreal Engine C++ Try to Copy MoonKnight ultimate mechanic and effect from Marvel Rivals game",
-    image: "Images/MoonKnight/MoonKnightUlt.jpg",
-    link: "https://drive.google.com/file/d/1CBxtTBHWg47sNCa5lY3mJwhmwqH20Uk4/view?usp=sharing"
+  {
+    title: "Terrain Design",
+    description: "A collection of terrain designs created using Unity's Terrain tools, showcasing various landscapes and environments.",
+    image: "Images/Terrain/Forest.jpg",
+    link: "https://drive.google.com/drive/folders/1mZhmWzK5fYaVdjSEvc03u7Q19x-tpAc9?usp=sharing"
   },
   {
     title: "Shatta Personality Quiz ",
@@ -55,6 +73,12 @@ const projects = [
     description: "A simple FPS game built with Unity, featuring a player controller, shooting mechanics And AI Enemies",
     image: "Images/ShootOBS/ShootOBS.png",
     link:"https://mido-ehab-221.itch.io/shootobs"
+  },
+  {
+    title: "MoonKnight Ultimate C++ UE5 ",
+    description: "Unreal Engine C++ Try to Copy MoonKnight ultimate mechanic and effect from Marvel Rivals game",
+    image: "Images/MoonKnight/MoonKnightUlt.jpg",
+    link: "https://drive.google.com/file/d/1CBxtTBHWg47sNCa5lY3mJwhmwqH20Uk4/view?usp=sharing"
   },
   {
     title:"Shaders",
