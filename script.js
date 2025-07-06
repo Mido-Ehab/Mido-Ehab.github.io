@@ -43,6 +43,12 @@ const projects = [
     description: "Freelance project for a client, a personality quiz game built with Unity.",
     image: "Images/FreelanceProjects/Shatta/ShattaFreelance.jpg",
     link: "https://www.linkedin.com/posts/mohamed-ehab-shalaby-805b9321b_freelance-unity-gamedev-activity-7316587853809901569-tLUH?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADeGpcUBnUygQZEnRrpAlYJIO8l_fN3BtYc"
+  },
+  {
+    title: "Network Game Using NetCode For GameObjects",
+    description: "A networked game built with Unity's NetCode for GameObjects, featuring a player controller and a simple shooting mechanic.",
+    image: "Images/NetCode/NetCode.png",
+    link:"https://drive.google.com/file/d/1wZMlrlhyZ9w3s2e8HERx6hIZvBf1JMlC/view?usp=drive_link"
   }
 ];
 
