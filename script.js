@@ -59,7 +59,7 @@ const projects = [
   {
     title: "AR Whack a Mole",
     description: "An Augmented Reality game built with Unity, where players can interact with virtual moles in the real world.",
-    image: "Images/AR/ARProject.png",
+    image: "Images/Ar/ARProject.png",
     link: "https://drive.google.com/file/d/1wchn_n5FjSz0nHB28ca43IVowDNNo1qI/view?usp=sharing",
   },
   {
