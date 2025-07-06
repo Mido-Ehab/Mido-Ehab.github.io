@@ -45,7 +45,7 @@ const projects = [
     link:"https://mido-ehab-221.itch.io/spidersonic"
   },
   {
-    title: "Maze ball Simble Unity Game",
+    title: "Maze ball Simple Unity Game",
     description: "Unity game where you control a ball to reach the end of the maze click view more if You want to try it.",
     image: "Images/MazeBall/MazeBall.png",
     link: "https://mido-ehab-221.itch.io/maze-ball"
