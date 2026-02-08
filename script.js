@@ -104,6 +104,24 @@ const projects = [
     image: "Images/Shidiji/Shidiji.png",
     link: "https://drive.google.com/drive/folders/1ZZQCZ_NFiu_HFRQL7lF14Rok4oBSRGJV?usp=sharing",
   },
+   {
+    title: "karaoke Game at Taif Writers and Readers Festival 2026",
+    description: "A karaoke game built with Unity, showcased at the Taif Writers and Readers Festival 2026, allowing players to sing along to their favorite Show (Adnan & lena)",
+    image: "Images/Karaoke/Karaoke.jpg",
+    link: "https://drive.google.com/drive/u/1/folders/1m0EBLjMTEyHE-xwtXR3Jf3IJGcbh5hZY",
+  },
+   {
+    title: "Time Machine Video Project at Taif Writers and Readers Festival 2026",
+    description: "A time machine video project built with Unity, showcased at the Taif Writers and Readers Festival 2026, allowing users to experience a journey through time.",
+    image: "Images/TimeMachine/TimeMachine.jpg",
+    link: "https://drive.google.com/drive/folders/1IYZb_JqrMU55tU7YEECI18cdZK25aGdJ?usp=sharing",
+  },
+   {
+    title: "Interactive AI Character Project at Taif Writers and Readers Festival 2026",
+    description: "An interactive AI character project built with Unity, showcased at the Taif Writers and Readers Festival 2026, allowing users to interact with an AI character Through Holobox.",
+    image: "Images/InteractiveAI/InteractiveAI.jpeg",
+    link: "https://drive.google.com/drive/u/1/folders/1RpayENsOctPeeEHKJB4EggWX2fvb9Ctr",
+  },
 ];
 
 function loadProjects() {
